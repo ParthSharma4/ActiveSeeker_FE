@@ -36,3 +36,16 @@ Contents of the front page -
     - profile.jsx
     - jobs.jsx
     - job/[id].jsx
+
+
+CHANGES TO BE MADE -
+
+1. env.local - set the backend API URL.
+
+2. utils/api.js → adjust endpoints to match backend routes.
+
+3. index.jsx - the login right now just redirects, need to integrate  actual login (Google/Firebase).
+
+5. User IDs - right now hardcoded "123" in API calls — replace with the real logged-in user’s ID.
+
+6. Styling/branding - TBD
